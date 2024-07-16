@@ -110,3 +110,26 @@ Licensed under the MIT license.
 [Landy]: https://www.npmjs.com/package/cra-template-adrinlol
 [Google Lighthouse]: https://developers.google.com/web/tools/lighthouse
 <!-- prettier-ignore-end -->
+## Local Deployment
+
+To deploy this project locally, follow these steps:
+
+1. Ensure you have Node.js and npm installed on your system.
+2. Clone the repository:
+   ```
+   git clone https://github.com/your-username/your-repo-name.git
+   ```
+3. Navigate to the project directory:
+   ```
+   cd your-repo-name
+   ```
+4. Install the dependencies:
+   ```
+   npm install
+   ```
+5. Start the development server:
+   ```
+   npm start
+   ```
+
+The application should now be running on `http://localhost:3000`.
