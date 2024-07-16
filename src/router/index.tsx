@@ -16,7 +16,7 @@ const Router = () => {
           return (
             <Route
               key={routeItem.component}
-              path={routeItem.path}
+              path={routeItem.path as string}
               element={<LazyComponent />}
             />
           );

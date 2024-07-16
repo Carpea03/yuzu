@@ -5,9 +5,6 @@ import { TFunction } from "i18next";
 import Container from "../../common/Container";
 import { SvgIcon } from "../../common/SvgIcon";
 import { Button } from "../../common/Button";
-import Container from "../../common/Container";
-import { SvgIcon } from "../../common/SvgIcon";
-import { Button } from "../../common/Button";
 import {
   HeaderSection,
   LogoContainer,
