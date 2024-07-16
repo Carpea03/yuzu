@@ -70,6 +70,7 @@ const Footer = ({ t }: { t: TFunction }) => {
               <Title>{t("Support")}</Title>
               <Large to="/">{t("For Candidates")}</Large>
               <Large to="/">{t("For Employers")}</Large>
+              <Large to="/">{t("FAQs")}</Large>
             </Col>
           </Row>
           <Row justify="space-between">
@@ -98,9 +99,9 @@ const Footer = ({ t }: { t: TFunction }) => {
                     height="30px"
                   />
                 </LanguageSwitch>
-                <LanguageSwitch onClick={() => handleChange("es")}>
+                <LanguageSwitch onClick={() => handleChange("zh")}>
                   <SvgIcon
-                    src="spain.svg"
+                    src="china.svg"
                     aria-label="homepage"
                     width="30px"
                     height="30px"
