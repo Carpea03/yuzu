@@ -4,6 +4,24 @@ import { TFunction } from "i18next";
 import { SvgIcon } from "../../common/SvgIcon";
 import Container from "../../common/Container";
 import i18n from "i18next";
+import {
+  FooterSection,
+  Title,
+  NavLink,
+  Extra,
+  LogoContainer,
+  Para,
+  Large,
+  Chat,
+  Empty,
+  FooterContainer,
+  Language,
+  Label,
+  LanguageSwitch,
+  LanguageSwitchContainer,
+} from "./styles";
+import Container from "../../common/Container";
+import i18n from "i18next";
 import Container from "../../common/Container";
 import {
   FooterSection,
