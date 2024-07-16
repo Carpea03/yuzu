@@ -1,4 +1,5 @@
 import { Row, Col } from "antd";
+import { Button } from "../../common/Button";
 import { withTranslation } from "react-i18next";
 import { TFunction } from "i18next";
 import { Slide } from "react-awesome-reveal";
