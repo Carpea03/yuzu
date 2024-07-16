@@ -52,23 +52,24 @@ const Footer = ({ t }: { t: TFunction }) => {
           <Row justify="space-between">
             <Col lg={10} md={10} sm={12} xs={12}>
               <Language>{t("Contact")}</Language>
-              <Large to="/">{t("Tell us everything")}</Large>
+              <Large to="/">{t("Get in touch")}</Large>
               <Para>
-                {t(`Do you have any question? Feel free to reach out.`)}
+                {t("Have questions? We're here to help.")}
               </Para>
-              <a href="mailto:l.qqbadze@gmail.com">
-                <Chat>{t(`Let's Chat`)}</Chat>
+              <a href="mailto:office@staranise.com.hk">
+                <Chat>{t("Contact Us")}</Chat>
               </a>
             </Col>
             <Col lg={8} md={8} sm={12} xs={12}>
-              <Title>{t("Policy")}</Title>
-              <Large to="/">{t("Application Security")}</Large>
-              <Large to="/">{t("Software Principles")}</Large>
+              <Title>{t("Services")}</Title>
+              <Large to="/">{t("Payroll")}</Large>
+              <Large to="/">{t("Secondments")}</Large>
+              <Large to="/">{t("Strategic Projects")}</Large>
             </Col>
             <Col lg={6} md={6} sm={12} xs={12}>
-              <Empty />
-              <Large to="/">{t("Support Center")}</Large>
-              <Large to="/">{t("Customer Support")}</Large>
+              <Title>{t("Support")}</Title>
+              <Large to="/">{t("For Candidates")}</Large>
+              <Large to="/">{t("For Employers")}</Large>
             </Col>
           </Row>
           <Row justify="space-between">
@@ -129,33 +130,17 @@ const Footer = ({ t }: { t: TFunction }) => {
             </NavLink>
             <FooterContainer>
               <SocialLink
-                href="https://github.com/Adrinlol/create-react-app-adrinlol"
-                src="github.svg"
-              />
-              <SocialLink
-                href="https://twitter.com/Adrinlolx"
-                src="twitter.svg"
-              />
-              <SocialLink
-                href="https://www.linkedin.com/in/lasha-kakabadze/"
+                href="https://www.linkedin.com/company/star-anise/"
                 src="linkedin.svg"
               />
               <SocialLink
-                href="https://medium.com/@lashakakabadze/"
-                src="medium.svg"
+                href="https://twitter.com/staranisehk"
+                src="twitter.svg"
               />
-              <a
-                href="https://ko-fi.com/Y8Y7H8BNJ"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <img
-                  height="36"
-                  style={{ border: 0, height: 36 }}
-                  src="https://storage.ko-fi.com/cdn/kofi3.png?v=3"
-                  alt="Buy Me a Coffee at ko-fi.com"
-                />
-              </a>
+              <SocialLink
+                href="https://www.facebook.com/StarAniseHK/"
+                src="facebook.svg"
+              />
             </FooterContainer>
           </Row>
         </Container>
