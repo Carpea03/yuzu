@@ -3,6 +3,7 @@ import { withTranslation } from "react-i18next";
 import { TFunction } from "i18next";
 import { Slide } from "react-awesome-reveal";
 import { Button } from "../../common/Button";
+import { Button } from "../../common/Button";
 import { MiddleBlockSection, Content, ContentWrapper } from "./styles";
 
 interface MiddleBlockProps {
