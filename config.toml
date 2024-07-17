@@ -3,6 +3,9 @@ languageCode = "en-us"
 title = "Yuzu - Innovative Legal Solutions"
 theme = "ananke"
 
+[build]
+  hugo-version = "0.92.0"
+
 # Site parameters
 [params]
   favicon = "/images/favicon.ico"
