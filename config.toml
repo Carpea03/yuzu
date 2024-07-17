@@ -4,7 +4,7 @@ title = "Yuzu - Innovative Legal Solutions"
 theme = "ananke"
 
 [build]
-  hugo-version = "0.92.0"
+  hugo-version = "0.111.3"
 
 # Site parameters
 [params]
