@@ -3,7 +3,7 @@
     {{ .Content | markdownify }}
   </article>
   <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
-  <link rel="stylesheet" href="{{ "css/custom.css" | relURL }}" type="text/css">
+  <link rel="stylesheet" href="{{ "css/custom.css" | absURL }}" type="text/css">
   <script src="https://kit.fontawesome.com/your-fontawesome-kit.js" crossorigin="anonymous"></script>
 <header class="bg-cover bg-center text-white py-48 relative" style="background-image: url('/images/hero-background.jpg');">
   <div class="absolute inset-0 bg-black opacity-50"></div>
@@ -58,6 +58,10 @@
     </ul>
   </div>
 </section>
+
+<section id="services" class="py-32 bg-white">
+  <div class="container mx-auto">
+    <h2 class="text-4xl font-bold text-center mb-16 relative">
       Our Services
       <span class="absolute bottom-0 left-1/2 transform -translate-x-1/2 w-24 h-1 bg-blue-600"></span>
     </h2>
@@ -168,7 +172,8 @@
         <p class="mb-4">Chris is the co-founder of Yuzu and their sister companies, Star Anise Legal and SALT. With a background in law and extensive experience in legal recruitment, Chris brings a unique perspective to optimizing legal functions.</p>
         <ul class="list-disc list-inside">
           <li>Law LL.B Hons (2:1) from the University of Exeter, England</li>
-          <li>Qualified Corporate M&A solicitor, attaining Legal Director position at a top international law firm</li>
+          <li>Qualified Corporate M&A solicitor</li>
+          <li>Attained Legal Director position at a top international law firm</li>
           <li>Co-founded Star Anise Legal in 2010</li>
         </ul>
       </div>
