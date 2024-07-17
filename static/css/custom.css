@@ -62,6 +62,11 @@ header {
   overflow: hidden;
 }
 
+header {
+  position: relative;
+  height: 12rem; /* 192px, equivalent to h-48 in Tailwind */
+}
+
 header iframe {
   position: absolute;
   top: 50%;
@@ -70,6 +75,26 @@ header iframe {
   height: 100%;
   transform: translate(-50%, -50%);
   object-fit: cover;
+}
+
+header .container {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+header h1 {
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+
+header p {
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
+
+header a {
+  font-size: 0.875rem;
+  padding: 0.5rem 1rem;
 }
 
 header .container {
