@@ -9,17 +9,17 @@ Yuzu is your partner in optimizing legal functions across Asia. We are an Altern
 
 ## Our Services
 
-- Managed Legal Services
-- Fractional GCs
-- Contract Lawyers
-- Legal Ops Consulting
+- **Managed Legal Services**: Comprehensive legal support tailored to your needs
+- **Fractional GCs**: Experienced general counsel on a part-time basis
+- **Contract Lawyers**: Skilled legal professionals for project-based work
+- **Legal Ops Consulting**: Optimize your legal operations for efficiency
 
 ## Benefits of Working with Yuzu
 
-- Cost-effective legal solutions
-- Flexible and scalable services
-- Access to experienced legal professionals
-- Innovative legal technology integration
+1. **Cost-effective legal solutions**: Reduce your legal spend without compromising quality
+2. **Flexible and scalable services**: Adapt to your changing legal needs
+3. **Access to experienced legal professionals**: Tap into a pool of skilled lawyers
+4. **Innovative legal technology integration**: Leverage cutting-edge tools for better outcomes
 
 ## About Us
 
@@ -29,5 +29,10 @@ Yuzu is committed to revolutionizing legal services in Asia. Our team of experie
 
 Ready to optimize your legal function? Get in touch with us today!
 
-Email: info@yuzu.legal
-Phone: +1 (123) 456-7890
+- **Email**: [info@yuzu.legal](mailto:info@yuzu.legal)
+- **Phone**: +1 (123) 456-7890
+- **Website**: [www.yuzu.legal](https://www.yuzu.legal)
+
+---
+
+*Yuzu: Empowering businesses with smart legal solutions across Asia*
