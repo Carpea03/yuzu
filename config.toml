@@ -1,4 +1,39 @@
-baseURL = "http://example.org/"
+baseURL = "https://yuzu.legal/"
 languageCode = "en-us"
 title = "Yuzu - Alternative Legal Services"
 theme = "ananke"
+
+# Site parameters
+[params]
+  favicon = "/images/favicon.ico"
+  site_logo = "/images/yuzu-logo.png"
+  description = "Yuzu offers Managed Legal Services, Fractional GCs, Contract Lawyers, and Legal Ops Consulting"
+  facebook = ""
+  twitter = "https://twitter.com/YuzuLegal"
+  instagram = ""
+  youtube = ""
+  github = ""
+  linkedin = "https://www.linkedin.com/company/yuzu-legal/"
+  # choose a background color from any on this page: https://tachyons.io/docs/themes/skins/
+  background_color_class = "bg-near-white"
+  featured_image = "/images/yuzu-hero.jpg"
+  recent_posts_number = 3
+
+# Menu configuration
+[menu]
+  [[menu.main]]
+    name = "Home"
+    url = "/"
+    weight = 1
+  [[menu.main]]
+    name = "Services"
+    url = "/services/"
+    weight = 2
+  [[menu.main]]
+    name = "About"
+    url = "/about/"
+    weight = 3
+  [[menu.main]]
+    name = "Contact"
+    url = "/contact/"
+    weight = 4
